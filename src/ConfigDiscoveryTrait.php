@@ -22,8 +22,8 @@ trait ConfigDiscoveryTrait
     /**
      * @var string
      */
-    private $applicationConfigPath = 'config/application.config.php';
-
+    #private $applicationConfigPath = 'config/application.config.php';
+    private $applicationConfigPath = __DIR__. '/../../../../config/application.config.php';
     /**
      * @var string
      */
